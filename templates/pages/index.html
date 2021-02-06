@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+      Pollster
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Welcome to Pollster</h5>
+      <p class="card-text">An example polls app built in Django.</p>
+      <a href="{% url 'pollster:index' %}" class="btn btn-primary">View Polls</a>
+    </div>
+</div>
+
+{% endblock content %}
